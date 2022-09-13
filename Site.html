@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+  <head>
+    <title>Домашняя работа</title>
+  </head>
+
+  <body>
+
+  <h1>Образец сайта</h1>
+
+	<li><a href = "http:/example.com">Абсолютная гиперссылка на главную страницу сайта example.com</a></li>
+	<li><a href = "https:/example.com">Гиперссылка на главную страницу сайта example.com черз https</a></li>
+    	<li><a href = "ftp://wikipedia.com/file.zip">Файл на сервере ftp без авторизации</a></li>
+	<li><a href = "ftp://user:@mail.com/file.zip">Файл на сервере ftp с авторизацией</a></li>
+    	<li><a href = "http:/example.com">Ссылка на фрагмент страницы другого сайта</a></li>
+    	<li><a href = "#id1">Cсылка на форму данного сайта</a></li>
+    	<li><a href = "https://www.youtube.com/watch?v=ltMSrSis9ww">Ссылка с двумя параметрами в URL</a></li>
+    	 <li><a> https://kubsu.ru/ Ссылка без href</a></li>
+    	<li><a href = "">Ссылка с пустым href</a></li>
+    	
+   <h1>Введите свои данные</h1>
+	<p id="id1"></p>
+    <form action="/"
+      method="POST">
+
+      <label>
+        Ваше имя:<br />
+        <input name="field-name-1"
+          placeholder="Введите Ваше имя" />
+      </label><br />
+
+      <label>
+        Ваш email:<br />
+        <input name="field-email"
+          type="email"
+          placeholder="Введите вашу эл. почту" />
+      </label><br />
+
+      <label>
+        Ваша дата рождения:<br />
+        <input name="field-date"
+          value="2003-01-01"
+          type="date" />
+      </label><br />
+
+	Ваш пол:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Значение1" />
+        Мужской</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        Женский</label><br />
+	 <label><input type="radio"
+        name="radio-group-1" value="Значение3" />
+        Иное</label><br />
+
+	Количество конечностей:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-2" value="Значение1" />
+        Одна</label>
+      <label><input type="radio"
+        name="radio-group-2" value="Значение2" />
+        Две</label><br />
+	 <label><input type="radio"
+        name="radio-group-2" value="Значение3" />
+        Три</label><br />
+	 <label><input type="radio"
+        name="radio-group-2" value="Значение4" />
+        Четыре</label><br />
+	 <label><input type="radio"
+        name="radio-group-2" value="Значение5" />
+        Пять</label><br />
+	 <label><input type="radio"
+        name="radio-group-2" value="Значение6" />
+        Больше</label><br />
+
+	<label>
+        Ваша сверхспособность:
+        <br />
+        <select name="field-name-4[]"
+          multiple="multiple">
+          <option value="Значение1">Бессмертие</option>
+          <option value="Значение2" selected="selected">Прохождение сквозь стены</option>
+          <option value="Значение3" selected="selected">Левитация</option>
+	  <option value="Значение2" selected="selected">Остановка времени</option>
+          <option value="Значение3" selected="selected">Телекинез</option>
+        </select>
+      </label><br />
+
+      <label>
+        Биография:<br />
+        <textarea name="field-name-2">Я родился в...</textarea>
+      </label><br />
+
+      С контрактом ознакомлен:<br />
+      <label><input type="checkbox" checked="checked"
+        name="check-1" />
+        Да</label><br />
+
+      Отправить ваши данные:
+      <input type="submit" value="Отправить" />
+    </form>
+
+  </body>
+
+</html>
+ 
